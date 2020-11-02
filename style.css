@@ -1,0 +1,8 @@
+.background {
+    background: rgb(58,58,180);
+    background: linear-gradient(90deg, rgba(58,58,180,1) 0%, rgba(29,210,253,1) 45%, rgba(69,174,252,1) 100%);
+}
+
+.link-color{
+    color:yellow
+}
