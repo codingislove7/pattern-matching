@@ -1,8 +1,28 @@
 .background {
-    background: rgb(58,58,180);
-    background: linear-gradient(90deg, rgba(58,58,180,1) 0%, rgba(29,210,253,1) 45%, rgba(69,174,252,1) 100%);
-}
+    background: rgb(12,18,47);
+    background: linear-gradient(90deg, rgba(12,18,47,1) 0%, rgba(20,128,153,1) 48%, rgba(12,18,47,1) 100%);}
 
 .link-color{
     color:yellow
+}
+
+.gameArea{
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    width: 200px;
+}
+.box{
+    
+    width: 50%;
+    height: 50%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.794);
+}
+
+.active{
+    border: 1px solid red;
+    color: red;
 }
